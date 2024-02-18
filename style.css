@@ -1,0 +1,380 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.header{
+    height: 100%;
+
+}
+.colorb{
+    background-color: black;
+    
+}
+nav.navbar{
+   
+    width: 100%;
+    height: 50px;
+}
+
+.navbar-section{
+    width: 90%;
+    border: 2px solid black;
+margin: auto;
+height: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.image{
+    display: block;
+    width: 8%;
+    margin: 6px;
+    margin-top: 5px;
+    opacity: 0.8;
+    
+}
+ul.menu-item li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 1rem;
+    position: relative;
+   
+    
+}
+ul.menu-item li::after,.heeee a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    background-color:aquamarine;
+    width: 0%;
+    height: 5px;
+    margin-top: 2px;
+    border-radius: 12px;
+    transition: all 500ms ease-in-out;
+
+}
+ul.menu-item li:hover::after{
+    width: 100%;
+    color: white;
+}
+ul.menu-item li a{
+    text-decoration: none;
+    color: white;
+}
+ .para{
+        font-size: 5.4rem;
+        margin-top: 34px; 
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        line-height: 4.6rem;
+        color: white;
+ }
+ .home-content2{
+    
+    width: 50%;
+    margin: auto;
+    
+ }
+ .para2{
+    font-size: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #6e7781;
+    padding-top: 15px;
+ }
+ .hello{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    width: 250px;
+    text-decoration: none;
+    color: black;
+ }
+ .hello2{
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid black;
+    
+    
+ }
+.hello2 p{
+    margin-top: -5px;
+    color: white;
+}
+.hello3{
+   
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 25px;
+     font-weight: bold;
+    line-height: 35px;
+    color: white;
+}
+.hello5{
+    font-size: 17px;
+}
+.color{
+    color: blue;
+}
+.box{
+   
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.066);
+    border: 2px solid rgba(44, 43, 43, 0.973);
+}
+
+.box2{
+    
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.red{
+    color: white;
+    line-height: 35px;
+}
+.green{
+    color: green;
+}
+.hello-1{
+   
+    
+    font-size: 25px;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+    
+}
+.hello-1 a{
+    color: blue;
+    text-decoration: none;
+}
+.main4{
+    
+    width: 90%;
+    margin: auto;
+    color: black;
+}
+.helo{
+    font-size: 4.5rem;
+    line-height: 70px;
+    margin-top: 30px;
+}
+.card{
+    
+    
+    line-height: 32px;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+.color2{
+    color: #6e7781;
+}
+.helo2{
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+}
+.main-3{
+    display: flex;
+}
+.box5{
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 2px 2px black;
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 12px;
+}
+.he{
+    color: #6e7781;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.hel6{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 220px;
+    text-decoration: none;
+    color: white;
+}
+.hee5{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.812);
+    font-size: 15px;
+    
+   
+}
+.logo2{
+    margin-top: 100px;
+}
+.footer{
+    background-color: rgba(128, 128, 128, 0.432);
+}
+.footer h5{
+    font-size: 18px;
+    padding: 20px 20px;
+    
+}
+.heeee a:hover::after{
+    width: 70px;
+    color: rgba(128, 128, 128, 0.541);
+    margin-top: -3px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-between;
+}
+.child1{
+    width: 30%;
+}
+.child2{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.c-child2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .main-3{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        
+    }
+    .menu-item  a{
+        font-size: 14px;
+    }
+    .helo{
+        font-size: 38px;
+        line-height: 42px;
+    }
+    .para{
+        font-size: 44px;
+        line-height: 42px;
+    }
+    .para2{
+        font-size: 20px;
+    }
+    .hello{
+        margin-left: -15px;
+        
+    }
+    .hello-1{
+        font-size: 20px;
+    }
+    .hel6{
+        font-size: 13px;
+        width: 150px;
+    }
+    .hee5{
+        font-size: 12px;
+    }
+    .footer1{
+        flex-direction: column;
+    }
+    .child1{
+        width: 100%;
+    }
+    .child2{
+        width: 100%;
+    }
+    .c-child2{
+        width: 50%;
+        margin-bottom: 10px;
+        text-align: center;
+       
+    }
+   
+}
+
+
+
+
+
+@media screen and (max-width: 430px){
+    .helo{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .para{
+        font-size: 44px;
+        line-height: 42px;
+    }
+    .para{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .para2{
+        font-size: 15px;
+    }
+    .hello{
+        margin-left: -15px;
+        font-size: 15px;
+        width: 190px;
+        
+    }
+    .hello-1{
+        font-size: 15px;
+    }
+    .hel6{
+        font-size: 10px;
+        width: 150px;
+    }
+    .hee5{
+        font-size: 12px;
+    }
+    .heeee{
+        margin-top: -35px;
+       }
+       .red{
+        font-size: 14px;
+        line-height: 28px;
+       }
+       .card h2{
+        font-size: 20px;
+       }
+       .card p{
+        font-size: 14px;
+       }
+       .card a{
+        font-size: 14px;
+       }
+      
+}
+
